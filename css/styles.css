@@ -1,0 +1,289 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+body {
+  height: 100%;
+  font-family: "ProximaNova" "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  margin-bottom: 121px;
+  padding: 0;
+}
+
+.header-project {
+  /* position: fixed;
+  top: 0;
+  left: 0; 
+  width: 100%; */
+  background-color: #191919;
+}
+
+.container {
+  width: 1200px;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container-header > img {
+  display: inline-block;
+  width: 191px;
+  height: 40px;
+}
+
+.header-datta {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+}
+
+.header-datta > span {
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 2;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.header-container-tel {
+  display: flex;
+  align-items: center;
+}
+
+.header-tel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header-tel > span {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
+  white-space: nowrap;
+}
+
+/* .header-tel + span {
+  margin-bottom: 10px;
+} */
+
+.header-container-tel > a {
+  display: inline-block;
+  padding: 7px 11px;
+  margin-left: 28px;
+  border: none;
+  border-radius: 4px;
+  font-size: 12px;
+  background-color: #1669b3;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 2;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.main-section-top {
+  background-color: #fff;
+  background-image: url("../img/sloy2.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: content;
+}
+
+.main-container {
+  padding: 0;
+}
+
+.services-reference {
+  width: 570px;
+  padding: 100px 100px;
+  background-color: #f7b516;
+}
+
+.services-reference > h2 {
+  width: 340px;
+  margin: 0;
+  margin-bottom: 50px;
+  font-size: 40px;
+  text-transform: uppercase;
+  line-height: 1.375;
+  text-align: left;
+}
+
+.services-reference > h2 > a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.services-reference > p {
+  margin: 0;
+  margin-bottom: 100px;
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  text-align: left;
+}
+
+.services-reference-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.services-reference-list > li:not(:last-child) {
+  margin-bottom: 50px;
+}
+
+.services-reference-item {
+  display: flex;
+  align-items: flex-start;
+  text-decoration: none;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  text-align: left;
+}
+
+.services-reference-item::before {
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin-right: 20px;
+  content: "";
+}
+
+.services-reference-item-1::before {
+  min-width: 25px;
+  height: 30px;
+  background-image: url("../img/piggy-bank.png");
+}
+.services-reference-item-2::before {
+  min-width: 30px;
+  height: 24px;
+  background-image: url("../img/delivery-truck-silhouette.png");
+}
+.services-reference-item-3::before {
+  min-width: 25px;
+  height: 30px;
+  background-image: url("../img/election-event-on-a-calendar-with-star-symbol.png");
+}
+
+.callback {
+  background-image: url("../img/section2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: auto 100%;
+}
+
+.callback-container-form {
+  text-align: right;
+  width: 780px;
+  margin-left: auto;
+  padding-left: 5px;
+}
+
+.Получите_прайс_прямо_сейчас_на_электронную_почту__ {
+  font-family: "ProximaNova";
+
+  position: absolute;
+  left: 1084.844px;
+  top: 1052.823px;
+  z-index: 208;
+}
+
+.callback-container-form > p {
+  width: 441px;
+  margin: 0;
+  margin-left: auto;
+  margin-bottom: 66px;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  text-align: right;
+}
+
+.callback-container-form-input {
+  width: 340px;
+  padding: 32px 15px;
+  margin-bottom: 32px;
+  border: none;
+  background-color: #f2f2f2;
+}
+
+.callback-container-form-input::placeholder {
+  text-transform: uppercase;
+}
+
+.form-input-email {
+  margin-right: 25px;
+}
+
+.callback-container-box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.callback-container-box > p {
+  display: flex;
+  align-items: flex-end;
+  width: 210px;
+  margin-right: 15px;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  text-align: right;
+}
+
+.callback-container-box > p::after {
+  display: inline-block;
+  min-width: 30px;
+  height: 30px;
+  margin-left: 15px;
+  background-image: url("../img/clock.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  content: "";
+}
+
+.callback-container-box > button{
+width: 340px;
+padding: 35px;
+border: none;
+border-radius: 5px;
+background-color: #1866af;
+color: #fff;
+}
